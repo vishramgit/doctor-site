@@ -156,6 +156,7 @@ section:nth-child(even){
 }
 .home .image img{
     width: 100%;
+    border-radius: .5rem;
 }
 .home .contact{
     flex: 1 1 45rem;
@@ -239,6 +240,7 @@ section:nth-child(even){
 }
 .about .row .image img{
     width: 100%;
+    border-radius: .5rem;
 }
 .about .row .contect{
     flex: 1 1 45rem;
@@ -269,7 +271,7 @@ section:nth-child(even){
 .doctor .box-container .box{
     display: flex;
     flex-direction: column;
-align-items: center;
+    align-items: center;
     /* background: #b80000; */
     /* border-radius: .5rem; */
     /* border: var(--border); */
@@ -323,6 +325,7 @@ align-items: center;
 } */
 .book .row  img{
     width: 50%;
+    border-radius: .5rem;
 }
 
 .form-box{
@@ -461,6 +464,7 @@ align-items: center;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: .5rem;
 }
 .blogs .box-container .box:hover .image img{
     transform: scale(1.);
